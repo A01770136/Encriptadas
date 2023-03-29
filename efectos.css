@@ -1,0 +1,58 @@
+{
+	color:#323232;
+	font-size:14pt;
+	font-weight:bold;
+	font-family:arial;
+}
+
+.encabezado{
+	background:blue;
+	color:white;
+	width:90%;
+	font-family:arial;
+	border-radius:15px;
+}
+
+.boton_azul{
+	background:#004DFF;
+	color:white;
+	font-size:16pt;
+	width:150px;
+	border-radius:10px;
+}
+.boton_azul:hover{
+	background:white;
+	color:#004DFF;
+}
+
+.boton_rojo{
+	background:#FF2020;
+	color:white;
+	font-size:16pt;
+	width:150px;
+	border-radius:10px;
+}
+.boton_rojo:hover{
+	background:white;
+	color:#FF2020;
+}
+
+.boton_amarillo{
+	background:#FFD020;
+	color:white;
+	font-size:16pt;
+	width:150px;
+	border-radius:10px;
+}
+.boton_amarillo:hover{
+	background:white;
+	color:#FFD020;
+}
+.campo{
+	background: blue;
+	color:white;
+	font-size: 16pt;
+	font-weight: bold;
+	border-radius: 10px;
+	text-align: center;
+}

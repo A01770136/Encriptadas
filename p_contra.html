@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="efectos.css" rel="stylesheet" type="text/css">
+		<title>Contraseñas</title>
+		<script src="p_contra.js" type="text/JavaScript"></script>
+	</head>
+	<body><center>
+		<h1 class="encabezado">Manejo de cuenta y contraseña</h1>
+		<br></br>
+		<table border="3" width=70%>
+			<form name="f_contra">
+			<tr align="center">
+				<td><p>Indica tu cuenta</p></td>
+				<td><input type="text" name="c_cta" class="campo" maxlength="10" onclick="campos_azules()"></td>
+			</tr>
+			<tr align="center">
+				<td><p>Indica tu contraseña</p></td>
+				<td><input type="password" name="c_pass" class="campo" maxlength="10" onclick="campos_azules()">
+					<img src="OJO.png" width="20" height="20" onClick="mostrar()">
+					<img src="ojocerrado.png" width="20" height="20" onClick="ocultar()">
+				</td>
+			</tr>
+			<tr align="center">
+				<td><input name="b_envia" type="button" class="boton_azul" value="Enviar" onclick="enviar()"></td>
+				<td><input name="b_reste" type="reset" class="boton_rojo" value="Reset"></td>
+			</tr>
+			<input type="hidden" name="intentos" value="0">
+		</form>
+
+		</table>
+	</center></body>
+</html>

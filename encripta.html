@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="efectos.css" rel="stylesheet" type="text/css">
+		<title>Encriptar</title>
+		<script src="encripta.js" type="text/JavaScript"></script>
+	</head>
+	<body><center>
+		<h1 class="encabezado">Encriptar y desencriptar datos</h1>
+		<br></br>
+		<table border="3" width=70%>
+			<form name="f_encripta">
+				<tr align="center">
+					<td><p>Indica la cadena a encriptar</p></td>
+					<td><input name="cad" type="text" class="campo" maxlength="20">
+					</td>
+				</tr>
+				<tr align="center">
+					<td><p>Encriptar o desencriptar</p></td>
+					<td>
+						<select name="op" class="campo">
+							<option>Encriptar</option>
+							<option>Desencriptar</option>
+						</select>
+					</td>
+				</tr>
+				<tr align="center">
+					<td><p>Encriptar o desencriptar</p></td>
+					<td colspan="2"><input type="text" name="salida" disabled="true" style="background:gray;" class="campo"></td>
+				</tr>
+				<tr align="center">
+					<td><input name="b_ejecuta" type="button" class="boton_azul" value="Ejecutar" onclick="ejecuta()"></td>
+					<td><input name="b_reset" type="reset" class="boton_rojo" value="Reiniciar"></td>
+				</tr>
+			</form>
+		</table>
+	</center></body>
+</html>
